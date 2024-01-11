@@ -1,0 +1,35 @@
+
+
+@import 'settings';
+@import 'foundation-emails';
+// @import 'template/template';
+
+@media screen {}
+
+
+body {
+	table.container {
+		> tbody > tr > td {
+			padding-top: 30px;
+			padding-bottom: 10px;
+		}
+	}
+	h1,
+	h2,
+	h3 {
+		color: #06847f;
+	}
+	p {
+		a {
+			display: inline;
+		}
+	}
+
+	a,
+	img {
+		display: inline-block;
+	}
+	ul {
+		padding-left: 20px;
+	}
+}
